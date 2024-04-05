@@ -1,0 +1,1 @@
+Kover depan memuat identitas buku, yaitu judul, subjudul (jika ada), peruntukan/jenjang, logo Kemdikbudristek dan logo lembaga yang bekerja sama dengan Kemdikbudristek, nama Kemdikbudristek dan nama lembaga yang bekerja sama dengan Kemdikbudristek, tahun terbit. Judul buku teks utama diambil dari judul mata pelajaran yang terdapat di Struktur Kurikulum.
