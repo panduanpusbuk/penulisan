@@ -60,28 +60,6 @@
       </div>
 
     </div> <!-- /container -->
-    
-    <!-- Include Showdown.js for Markdown to HTML conversion -->
-    <script src="https://cdn.jsdelivr.net/npm/showdown@1.10.2/dist/showdown.min.js"></script>
-    
-    <script>
-      // Function to fetch and display Markdown content
-      function loadMarkdown(markdownFile) {
-          fetch(markdownFile)
-              .then(response => response.text())
-              .then(markdownContent => {
-                  // Create a new Showdown converter
-                  const converter = new showdown.Converter();
-
-                  // Convert Markdown to HTML
-                  const htmlContent = converter.makeHtml(markdownContent);
-
-                  // Insert HTML content into the specified element
-                  document.getElementById('markdown-content').innerHTML = htmlContent;
-              })
-              .catch(error => console.error('Error fetching Markdown content:', error));
-      }
-    </script>
 
 </body>
 </html>
