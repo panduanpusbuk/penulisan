@@ -54,9 +54,13 @@ body {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
-.bullet-di {
+.bullet-list {
   list-style-type: disc; /* Set the list style to bullets */
   margin-left: 20px; /* Add some left margin for spacing */
+}
+.bullet-di {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Set link color */
 }
 
 /* Responsive: Portrait tablets and up */
