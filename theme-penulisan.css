@@ -56,11 +56,10 @@ body {
 }
 .bullet-list {
   list-style-type: disc; /* Set the list style to bullets */
-  margin-left: 20px; /* Add some left margin for spacing */
+  line-height: 1.5;
 }
 .bullet-di {
   text-decoration: none; /* Remove underline from links */
-  color: black; /* Set link color */
 }
 
 /* Responsive: Portrait tablets and up */
