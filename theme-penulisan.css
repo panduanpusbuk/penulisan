@@ -32,16 +32,12 @@ body {
   line-height: 40px; /* Make the masthead heading the same height as the navigation */
 }
 
-/*KOVER-DEPAN*/
-.koverdepan {
-  width: 794px;
-  height: 1123px;
+/*KOVER-BAB*/
+.koverbab {
+  width: 667px;
+  height: 945px;
   border: 1px solid #777;
   margin: 20px auto;
-  background-image: url('buku-siswa/bskoverbab.jpg');
-  background-size: cover;        
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 /* Custom page footer */
