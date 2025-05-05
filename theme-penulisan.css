@@ -38,6 +38,10 @@ body {
   height: 1123px;
   border: 1px solid #777;
   margin: 20px auto;
+  background-image: url('buku-siswa/bskoverbab.jpg');
+  background-size: cover;        
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Custom page footer */
