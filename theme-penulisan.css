@@ -33,11 +33,137 @@ body {
 }
 
 /*KOVER-BAB*/
-.koverbab {
+.kotakhlm {
   width: 667px;
   height: 945px;
   border: 1px solid #777;
-  margin: 20px auto;
+  margin-bottom: 40px;
+  padding: 76px 95px 95px 76px;
+}
+
+.kotakhlm img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.kotakhlm-wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.nomorhlm {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.kotakhlm p {
+  text-align: justify;
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+.tujuanpembelajaran:hover {
+  text-shadow: 0 0 8px #b5f51e, 0 0 16px #7ee500;
+}
+
+.apersepsi {
+  position: relative;
+  cursor: pointer;
+}
+
+/* HOVER GAMBAR */
+
+.tooltip-container {
+  position: absolute;
+  bottom: 120%;
+  left: 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background: #fff;
+  padding: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 10;
+}
+
+.apersepsi:hover .tooltip-container {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.tooltip-gambar {
+  width: 100px;
+  height: auto;
+  display: block;
+}
+
+.tooltip-gambar img {
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+/* Saat hover ke <p>, tampilkan tooltip */
+.apersepsi:hover .tooltip-gambar {
+  display: block;
+}
+
+/* END OF HOVER GAMBAR */
+
+/* HOVER TEKS dan PRANALA */
+
+.tooltip-teks {
+  position: absolute;
+  bottom: 120%; /* naik ke atas teks */
+  left: 0;
+  background: #333;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* tampil cepat saat hover */
+.apersepsi:hover .tooltip-teks {
+  opacity: 1;
+  color: #ffffff; /* opsional: ubah warna teks */
+  text-shadow:none;
+}
+
+.tautan-paragraf {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* END OF HOVER TEKS */
+
+p.apersepsi:hover {
+  color: #000000; /* opsional: ubah warna teks */
+  text-shadow: 0 0 8px #b5f51e, 0 0 16px #7ee500;
 }
 
 /* Custom page footer */
